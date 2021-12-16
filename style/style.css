@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=EB+Garamond:ital@1&family=Luxurious+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Corinthia:wght@700&family=EB+Garamond:ital@1&family=Luxurious+Script&family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Corinthia:wght@400;700&family=EB+Garamond:ital@1&family=Luxurious+Script&family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    display: flex;
+justify-content: space-evenly;
+margin: 0;
+padding-top: 30px;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+font-size: 24px;
+
+}
+.menu-1{
+    display: flex;
+    gap: 50px;
+}
+
+.menu a:hover{
+    border-bottom:2px solid black;
+    transition: .7s;
+}
+header{
+   height: 100vh;
+background: url(../img/Rectangle\ 43.png);
+background-repeat:no-repeat ;
+background-size: cover;
+background-position-y:center ;
+}
+.content{
+    font-family: 'Corinthia', cursive;
+    text-align: center;
+    padding-top: 15px;
+}
+.content h1{
+    font-size: 200px;
+}
+.content p{
+    padding-left: 15rem;
+    margin-top: -15rem;
+    font-size: 35px;
+    font-family: 'Corinthia', cursive;
+font-family: 'EB Garamond', serif;
+}
+.amazing{
+    display: flex;
+}
+
+
+.amazing p{
+    padding-left: 1rem;
+   
+}
+.amazing img{
+    width: 750px;
+}
+.text{
+    padding-top: 23rem;
+    margin-left: 3rem;
+}
+.amazing h3{
+    padding-left: 1rem;
+}
+.qq{
+  
+
+}
+.qq h2{
+  font-size: 120px;
+  padding-top: 2rem;
+padding-left: 10rem;
+font-family: 'Corinthia', cursive;
+color: chocolate;
+}
+.qq p {
+padding-left: 26rem;
+margin-top: -9REM;
+font-size: 25px;
+font-family: 'Corinthia', cursive;
+font-family: 'EB Garamond', serif;
+position: relative;
+}
+
+.menu3{
+    display: flex;
+}
+.menu3 img{
+padding-left: 21rem;
+width: 600px;
+padding-top: 4rem;
+}
+
+.text3 p{
+    margin-top: -9.5rem;
+    padding-left: 21rem;
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Corinthia', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Luxurious Script', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.text3 h1{
+    padding-left: 90px; 
+    font-size: 130px;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Corinthia', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Luxurious Script', cursive;
+ color: chocolate;
+}
+
+.text3 ul li{
+    list-style: none;
+}
+.text3 button{
+    margin-top: 2rem;
+    padding: 7px 15px 7px 15px  ;
+    border: none;
+    border: 1px solid gold;
+    background: transparent;  
+cursor: pointer;
+}
+.menu-4{
+    display: flex;
+}
+.text-4 h2{
+padding-left: 10rem;
+font-size: 90px;
+font-family: 'Corinthia', cursive;
+color: chocolate;
+}
+.p2-2 {
+
+        padding-left: 17rem;
+        margin-top: -7rem;
+        font-size: 35px;
+        font-family: 'Corinthia', cursive;
+}
+.p1{
+margin-top: 13rem;
+padding-left: 5rem;
+}
+.photos img{
+  margin: 0PX 5px 0 25px;
+}
+
+.photos2 img{
+    margin: 15px 5px 0 25px;
+}
+
+
+/* block5 */
+.menu-5{
+    display: flex;
+}
+.text-5 h2{
+    font-family: 'Corinthia', cursive;
+    font-family: 'Corinthia', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Luxurious Script', cursive;
+    font-size: 100px;
+    padding-left: 10rem;
+    color: rgba(250, 204, 2, 0.753);
+}
+.text-5 h3{
+    font-size: 25px;
+    padding-left: 10rem;
+   padding-top: 29px;
+}
+
+.text-5 h6{
+  margin-bottom: -5rem;
+    padding-left: 6rem;
+    padding-right: 10rem;
+    font-size: 15px;
+    line-height: 30px;
+ 
+}
+.text-5 p{
+    margin-top: -7rem;
+    padding-left: 17rem;
+    font-size: 20px; 
+    font-family: 'Corinthia', cursive;
+font-family: 'EB Garamond', serif;
+  }
+  .text-6{
+     padding-top: 14.9rem;
+      padding-right: 20rem;
+  }
+.text-7 img:nth-child(1){
+width: 80px;
+position: relative;
+top: 21rem;
+right: 19rem;
+  }
+  .text-7 img:nth-child(2){
+      width: 180px;
+      right: 12rem;
+      top: 1rem;
+      position: relative;
+  }
+  .text-7 img:nth-child(3){
+      width: 80px;
+      right: 15rem;
+     position: relative;
+     top: 5rem;
+  }
+.menu7 h1{
+    padding-top: 15rem;
+    padding-left: 10rem;
+    font-size: 80px;
+    font-family: 'Corinthia', cursive;
+    color: chocolate;
+}
+.menu7{
+    display: flex;
+}
+.picture img{
+    width: 35rem;
+    padding-top: 10rem;
+    padding-left: 7rem;
+}
+.p9{
+   margin-top: -6rem;
+    padding-left: 20rem;
+}
+.menu7 li{
+    list-style: none;
+}
+.text-8 h2{
+    padding-left: 20rem;
+    font-size:80px ;
+    font-family: 'Corinthia', cursive;
+    color: chocolate;
+    padding-top: 20px;
+}
